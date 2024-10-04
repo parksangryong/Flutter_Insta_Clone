@@ -14,7 +14,7 @@ class _AlarmButtonCloseTile extends State<AlarmButtonCloseTile>{
   @override
   Widget build(BuildContext context) {
     return ListTile(
-      leading: const CircleAvatar(backgroundColor: Colors.white54,),
+      leading: const CircleAvatar(backgroundImage: AssetImage("assets/rabbit.jpeg"),),
       title: const Text("NickName"),
       subtitle: const Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -24,7 +24,7 @@ class _AlarmButtonCloseTile extends State<AlarmButtonCloseTile>{
             children: [
               CircleAvatar(
                 radius: 10,
-                backgroundColor: Colors.white70,
+                backgroundImage: AssetImage("assets/bird.png"),
               ),
               Flexible(
                   child: Text("---- 님, ----- 님 외 13명이 팔로우합니다."))
