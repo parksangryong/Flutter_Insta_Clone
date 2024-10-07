@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:insta_clone/components/touchable_opacity.dart';
+import 'package:insta_clone/constants/font.dart';
 
 class FollowButton extends StatefulWidget{
   const FollowButton({super.key});
@@ -17,8 +18,13 @@ class _FollowButton extends State<FollowButton>{
   Widget build(BuildContext context) {
     return TouchableOpacityWidget(child:
         Container(
-          decoration: BoxDecoration(),
-         child: follow ? Text("팔로잉") : Text("팔로우")
+          width: 55,
+          height: 30,
+          decoration: BoxDecoration(
+            color: !follow? Colors.blue : Colors.blueGrey.shade800,
+            borderRadius: BorderRadius.circular(8)
+          ),
+         child: Center(child: follow? Text("팔로잉",style: lFeedMiniText,) : Text("팔로우",style: lFeedMiniText,))
         )
         , onPress: (){setState(() {
       follow = !follow;

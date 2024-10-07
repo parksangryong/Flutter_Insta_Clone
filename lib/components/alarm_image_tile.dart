@@ -7,9 +7,9 @@ class AlarmImageTile extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.only(bottom: 5),
+      margin: const EdgeInsets.only(bottom: 5),
       child: ListTile(
-          leading: const CircleAvatar(
+          leading: const CircleAvatar(radius: 24,
             backgroundColor: Colors.white,
             backgroundImage: AssetImage("assets/image.jpg"),
           ),
@@ -18,8 +18,8 @@ class AlarmImageTile extends StatelessWidget{
             borderRadius: BorderRadius.circular(8), // 모서리를 둥글게 설정
             child: Image.asset(
               "assets/back.jpeg",
-              width: 48, // 원하는 크기 설정
-              height: 48, // 원하는 크기 설정
+              width: 45, // 원하는 크기 설정
+              height: 45, // 원하는 크기 설정
               fit: BoxFit.cover, // 이미지를 박스에 맞추기
             ),
           ),),

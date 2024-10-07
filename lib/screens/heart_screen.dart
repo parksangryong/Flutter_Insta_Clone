@@ -34,7 +34,7 @@ class HeartScreen extends StatelessWidget {
                       style: lFeedContentText.copyWith(fontSize: 15)),
                 ),
                 Column(
-                    children: List.generate(10, (index) {
+                    children: List.generate(5, (index) {
                   return AlarmImageTile();
                 })),
                 Padding(
@@ -44,7 +44,7 @@ class HeartScreen extends StatelessWidget {
                       style: lFeedContentText.copyWith(fontSize: 15)),
                 ),
                 Column(
-                    children: List.generate(10, (index) {
+                    children: List.generate(7, (index) {
                   return AlarmButtonTile();
                 })),
                 Padding(
