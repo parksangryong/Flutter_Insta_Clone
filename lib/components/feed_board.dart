@@ -39,7 +39,7 @@ class _FeedBoard extends State<FeedBoard> {
                     const SizedBox(
                       width: 6,
                     ),
-                    Text("OtherName", style: lFeedTitleText)
+                    Text("OtherName", style: lLargeText)
                   ],
                 ),
                 const FaIcon(FontAwesomeIcons.ellipsisVertical),
@@ -70,7 +70,7 @@ class _FeedBoard extends State<FeedBoard> {
                     heartCheck
                         ?  Padding(
                             padding: const EdgeInsets.only(left: 5),
-                            child: Text("1", style: lFeedContentText),
+                            child: Text("1", style: lMediumText),
                           )
                         : const SizedBox.shrink(),
                     const SizedBox(
@@ -103,11 +103,11 @@ class _FeedBoard extends State<FeedBoard> {
           ),
            Padding(
             padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 5),
-            child: Text("Content, this is cute tiger.", style: lFeedContentText),
+            child: Text("Content, this is cute tiger.", style: lMediumText),
           ),
            Padding(
             padding: const EdgeInsets.only(left: 8, bottom: 5),
-            child: Text("댓글 모두 보기",  style: lFeedMiniText),
+            child: Text("댓글 모두 보기",  style: lSmallText),
           ),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 8),
@@ -120,13 +120,13 @@ class _FeedBoard extends State<FeedBoard> {
                 const SizedBox(
                   width: 6,
                 ),
-                Text("댓글 추가...",  style: lFeedMiniText)
+                Text("댓글 추가...",  style: lSmallText)
               ],
             ),
           ),
            Padding(
             padding: const EdgeInsets.only(left: 10, bottom: 8, top: 5),
-            child: Text("2일전",  style: lFeedMiniText),
+            child: Text("2일전",  style: lSmallText),
           ),
         ],
       ),

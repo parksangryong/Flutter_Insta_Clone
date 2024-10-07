@@ -24,7 +24,7 @@ class _FollowButton extends State<FollowButton>{
             color: !follow? Colors.blue : Colors.blueGrey.shade800,
             borderRadius: BorderRadius.circular(8)
           ),
-         child: Center(child: follow? Text("팔로잉",style: lFeedMiniText,) : Text("팔로우",style: lFeedMiniText,))
+         child: Center(child: follow? Text("팔로잉",style: lSmallText,) : Text("팔로우",style: lSmallText,))
         )
         , onPress: (){setState(() {
       follow = !follow;

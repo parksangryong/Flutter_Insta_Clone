@@ -13,7 +13,7 @@ class AlarmImageTile extends StatelessWidget{
             backgroundColor: Colors.white,
             backgroundImage: AssetImage("assets/image.jpg"),
           ),
-          title: Text("XXX 님과 YYY 님이 회원님의 게시물을 좋아합니다.", style: lFeedContentText),
+          title: Text("XXX 님과 YYY 님이 회원님의 게시물을 좋아합니다.", style: lMediumText),
           trailing: ClipRRect(
             borderRadius: BorderRadius.circular(8), // 모서리를 둥글게 설정
             child: Image.asset(

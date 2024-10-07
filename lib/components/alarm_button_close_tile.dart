@@ -18,11 +18,11 @@ class _AlarmButtonCloseTile extends State<AlarmButtonCloseTile>{
   Widget build(BuildContext context) {
     return ListTile(
       leading: const CircleAvatar(radius: 24,backgroundImage: AssetImage("assets/rabbit.jpeg",),),
-      title:  Text("NickName" , style: lFeedContentText.copyWith(fontSize: 12)),
+      title:  Text("NickName" , style: lMediumText.copyWith(fontSize: 12)),
       subtitle:  Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text("Name", style: lFeedMiniText.copyWith(fontSize: 10),),
+          Text("Name", style: lSmallText.copyWith(fontSize: 10),),
           Row(
             children: [
               const CircleAvatar(
@@ -31,7 +31,7 @@ class _AlarmButtonCloseTile extends State<AlarmButtonCloseTile>{
               ),
               const SizedBox(width: 5,),
               Flexible(
-                  child: Text("FireBird 님, IceBird 님 외 13명이 팔로우합니다.", style: lFeedMiniText.copyWith(fontSize: 9)))
+                  child: Text("FireBird 님, IceBird 님 외 13명이 팔로우합니다.", style: lSmallText.copyWith(fontSize: 9)))
             ],
           )
         ],

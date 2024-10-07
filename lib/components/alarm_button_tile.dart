@@ -16,7 +16,7 @@ class _AlarmButtonTile extends State<AlarmButtonTile>{
   Widget build(BuildContext context) {
     return ListTile(
       leading:  const CircleAvatar(radius: 24, backgroundImage: AssetImage("assets/cat.jpeg"),),
-      title:  Text("회원님이 알 수도 있는 xxx님이 Instagram을 사용중입니다.", style: lFeedContentText),
+      title:  Text("회원님이 알 수도 있는 xxx님이 Instagram을 사용중입니다.", style: lMediumText),
       trailing: const FollowButton()
     );
   }

@@ -19,7 +19,7 @@ class HeartScreen extends StatelessWidget {
                 },
                 child: const FaIcon(FontAwesomeIcons.arrowLeftLong)),
           ),
-          title: Text("알림", style: lFeedTitleText.copyWith(fontSize: 22)),
+          title: Text("알림", style: lLargeText.copyWith(fontSize: 22)),
         ),
         body: SingleChildScrollView(
           child: Padding(
@@ -31,7 +31,7 @@ class HeartScreen extends StatelessWidget {
                   padding: const EdgeInsets.symmetric(vertical: 10),
                   child: Text("최근 7일",
                       textAlign: TextAlign.start,
-                      style: lFeedContentText.copyWith(fontSize: 15)),
+                      style: lMediumText.copyWith(fontSize: 15)),
                 ),
                 Column(
                     children: List.generate(5, (index) {
@@ -41,7 +41,7 @@ class HeartScreen extends StatelessWidget {
                   padding: const EdgeInsets.symmetric(vertical: 10),
                   child: Text("알수도 있는 사람",
                       textAlign: TextAlign.start,
-                      style: lFeedContentText.copyWith(fontSize: 15)),
+                      style: lMediumText.copyWith(fontSize: 15)),
                 ),
                 Column(
                     children: List.generate(7, (index) {
@@ -51,7 +51,7 @@ class HeartScreen extends StatelessWidget {
                   padding: const EdgeInsets.symmetric(vertical: 10),
                   child: Text("회원님을 위한 추천",
                       textAlign: TextAlign.start,
-                      style: lFeedContentText.copyWith(fontSize: 15)),
+                      style: lMediumText.copyWith(fontSize: 15)),
                 ),
                 Column(
                     children: List.generate(10, (index) {

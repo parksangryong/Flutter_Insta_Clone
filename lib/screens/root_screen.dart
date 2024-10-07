@@ -43,7 +43,7 @@ class _RootScreen extends State<RootScreen> with TickerProviderStateMixin {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title:  Text("InstaGram", style: GoogleFonts.lobsterTwo(textStyle: lHeaderTitleText)),
+        title:  Text("InstaGram", style: GoogleFonts.lobsterTwo(textStyle: lHeaderText)),
         actions: [
           IconButton(
               onPressed: () {

@@ -41,7 +41,7 @@ class CircleAddStory extends StatelessWidget{
               ),
             ],
           ),
-           Text("MyName", style: lStoryNameText)
+           Text("MyName", style: lMediumText)
         ],
       ),
     );

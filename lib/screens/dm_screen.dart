@@ -19,7 +19,7 @@ class DmScreen extends StatelessWidget {
           title: Row(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              Text("MyName", style: lFeedTitleText.copyWith(fontSize: 20)),
+              Text("MyName", style: lLargeText.copyWith(fontSize: 20)),
               const SizedBox(
                 width: 10,
               ),
