@@ -7,7 +7,9 @@ class CircleStory extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TouchableOpacityWidget(
-      onPress: (){},
+      onPress: (){
+        Navigator.pushNamed(context, '/story');
+      },
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [

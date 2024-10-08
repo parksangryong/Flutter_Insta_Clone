@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:insta_clone/screens/dm_screen.dart';
 import 'package:insta_clone/screens/heart_screen.dart';
 import 'package:insta_clone/screens/root_screen.dart';
+import 'package:insta_clone/screens/story_screen.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -11,7 +12,8 @@ void main() {
     routes: {
       '/' : (context) => RootScreen(),
       '/dm' : (context) => DmScreen(),
-      '/heart' : (context) => HeartScreen()
+      '/heart' : (context) => HeartScreen(),
+      '/story' : (context) => StoryScreen()
     },
   ));
 }
